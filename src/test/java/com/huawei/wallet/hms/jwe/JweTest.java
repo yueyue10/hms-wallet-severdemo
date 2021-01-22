@@ -41,7 +41,7 @@ public class JweTest {
         String appId = ConfigUtil.instants().getValue("gw.appid");
         // Read a new pass instance.
         JSONObject newInstance = JSONObject.parseObject(ConfigUtil
-            .readFile("Replace with the instance JSON file to be created. For example: EventTicketInstance.json"));
+            .readFile("EventTicketInstance.json"));
         newInstance.put("iss", appId);
         String payload = newInstance.toJSONString();
 
@@ -68,7 +68,7 @@ public class JweTest {
         String appId = ConfigUtil.instants().getValue("gw.appid");
         // Bind existing pass instances to a user. Construct a list of instance IDs to be bound.
         String instanceIdListStr =
-            "{\"instanceIds\": [\"Replace with the instance ID to be bond. For example: EventTicketPass10001\"]}";
+            "{\"instanceIds\": [\"EventTicketPass10001\"]}";
         JSONObject instanceIdList = JSONObject.parseObject(instanceIdListStr);
         instanceIdList.put("iss", appId);
         String payload = instanceIdList.toJSONString();

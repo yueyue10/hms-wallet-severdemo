@@ -68,7 +68,7 @@ public class EventTicketInstanceTest {
         System.out.println("getEventTicketInstance begin.");
 
         // ID of the event ticket instance you want to get.
-        String instanceId = "EventTicketPass10001";
+        String instanceId = "EventTicketPass100014";
 
         // Get the event ticket instance.
         String urlSegment = "/v1/eventticket/instance/";

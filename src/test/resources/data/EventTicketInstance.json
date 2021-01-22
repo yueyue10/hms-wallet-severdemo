@@ -1,18 +1,18 @@
 {
-  "organizationPassId": "5623489234",
-  "passTypeIdentifier": "Replace with the Service ID you applied on AGC",
+  "organizationPassId": "123456",
+  "passTypeIdentifier": "hwpass.zyj.testhms.pass.ticket",
   "passStyleIdentifier": "EventTicketTestModel",
-  "serialNumber": "EventTicketPass10001",
+  "serialNumber": "EventTicketPass100014",
   "fields": {
     "status": {
       "state": "active",
-      "effectTime": "2020-04-06T00:00:00.111Z",
+      "effectTime": "2021-04-06T00:00:00.111Z",
       "expireTime": "2030-04-06T00:00:00.111Z"
     },
     "commonFields": [
       {
         "key": "ticketNumber",
-        "value": "12345678"
+        "value": "1234567896"
       }
     ],
     "appendFields": [
@@ -43,7 +43,7 @@
     ],
     "barCode": {
       "text": "562348969211212",
-      "type": "codabar",
+      "type": "qrCod",
       "value": "562348969211212",
       "encoding": "UTF-8"
     }
